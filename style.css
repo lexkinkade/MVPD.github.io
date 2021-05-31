@@ -53,7 +53,7 @@ main {
     font-size: 11px;
     position: absolute;
     left: 10px;
-    font-family: "Lucida Sans Typewriter","Lucida Console","Bitstream Vera Sans Mono",monospace;
+    font-family: "Times New Roman","Lucida Console","Bitstream Vera Sans Mono",monospace;
     color: rgb(255, 255, 255)
     
 }
@@ -62,7 +62,8 @@ header {
     background-image: url(images/Logo.jpg);
     height: 100vh;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-x: 50%;
+    background-position-y: 55%;
     background-size: 25rem;
     background-color: rgb(255, 255, 255);
 }
@@ -174,19 +175,70 @@ header {
 #interests {
     transition: .5s all cubic-bezier(0.23, 1, 0.32, 1);
     margin: 0;
-    padding: 0;   
-    background-image: url(images/jup2.jpg);
-    background-repeat: no-repeat;
-    background-position:  right;
-    background-size: cover;
-    margin-right: 0%;
-    margin-left: 10rem;
+    padding: 0;  
+
+
 }
 
+#gallery {
+    margin-left: 10%;
+    line-height:0;
+    -webkit-column-count:5; /* split it into 5 columns */
+    -webkit-column-gap:5px; /* give it a 5px gap between columns */
+    -moz-column-count:5;
+    -moz-column-gap:5px;
+    column-count:5;
+    column-gap:5px;
+ }
 
-#interests p {
+ #gallery img {
+    filter: grayscale(100%);
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:5px; /* to match column gap */
+    transition: filter 1s;
+    
+ }
+
+ #gallery img:hover {
+    filter:none;
+ }
+
+ @media (max-width: 1200px) {
+    #gallery {
+     -moz-column-count:    4;
+     -webkit-column-count: 4;
+     column-count:         4;
+    }
+ }
+
+ @media (max-width: 1000px) {
+    #gallery {
+     -moz-column-count:    3;
+     -webkit-column-count: 3;
+     column-count:         3;
+    }
+ }
+
+ @media (max-width: 800px) {
+    #gallery {
+     -moz-column-count:    2;
+     -webkit-column-count: 2;
+     column-count:         2;
+    }
+ }
+
+ @media (max-width: 400px) {
+    #gallery {
+     -moz-column-count:    1;
+     -webkit-column-count: 1;
+     column-count:         1;
+    }
+ }
+
+#interests h1 {
     text-align: left;
-    font-size: 16px;
+    font-size: 110px;
     margin-left: 10rem;
     margin-right: 10rem;
 }
@@ -227,29 +279,38 @@ footer {
 
 h1 {
     font-size: 110px;
-    line-height: 60px;
+    line-height: 100px;
     padding: 0;
     color: rgb(1,121,197);
-    font-family: 'Open Sans', sans-serif;    
+    font-family: 'Times New Roman', sans-serif;    
 }
 
 p {
-    font-weight: 300;
-    font-size: 12px;
+    font-weight: 5600;
+    font-size: 24px;
     /*color: #303030;*/
     color: rgb(1,121,197);
     line-height: 24px;
-    font-family: "Lucida Sans Typewriter","Lucida Console","Bitstream Vera Sans Mono",monospace;
+    font-family: "Times New Roman","Lucida Console","Bitstream Vera Sans Mono",monospace;
     text-align: center;
+}
 
+pre {
+    font-weight: 5600;
+    font-size: 24px;
+    /*color: #303030;*/
+    color: rgb(1,121,197);
+    line-height: 24px;
+    font-family: "Times New Roman","Lucida Console","Bitstream Vera Sans Mono",monospace;
+   
 }
 
 a {
-    font-weight: 300;
-    font-size: 12px;
+    font-weight: 1000;
+    font-size: 30px;
     color: rgb(1,121,197);
     line-height: 26px;
-    font-family: "Lucida Sans Typewriter","Lucida Console","Bitstream Vera Sans Mono",monospace;
+    font-family: "Times New Roman","Lucida Console","Bitstream Vera Sans Mono",monospace;
     text-align: center;
     width: 45%;
     padding-left: 25%;
@@ -266,14 +327,17 @@ footer p {
 
   
 }
-
 footer a {
-    position: left;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(1,121,197);
     font-size: 10px;
     padding-top: 25px;
     padding-bottom: 25px;
-  
+    position: left;
+ 
 }
+
 
 
 /* ========== Media Queries For Responsiveness ========== */
@@ -354,6 +418,7 @@ footer a {
 	.ME p{
 		margin:0 7rem;
 		padding:0;
+        text-align: center;
 	}
 	
 	h1{
@@ -461,14 +526,14 @@ footer a {
 		margin-left: 1rem;
 		margin-right:1rem;
 		line-height:1.7;
-		font-size:14px;
+		font-size:24px;
 	}
 	
 	#interests p {
 		margin-left: 1rem;
 		margin-right:1rem;
 		line-height:1.7;
-		font-size:14px;
+		font-size:24px;
 	}
 	
 	#interests p.hobbies{
@@ -478,7 +543,7 @@ footer a {
 	#grail p{
 		margin-right:1rem;
 		line-height:1.7;
-		font-size:14px;
+		font-size:24px;
 	}
 	
 	#grail img{
@@ -528,19 +593,21 @@ footer a {
 	}
 	
 	#experience p,
+    #college,
 	#methods p,
 	#interests p,
 	#grail p{
-		margin-right: .5rem;
-		margin-left: .5rem;
+		margin-right: 10rem;
+		margin-left: 10rem;
 		line-height:1.5;
-		font-size:13px;
-		width: 95%;
+		font-size:24px;
+		width: 65%;
 	}
 	
 	#college p{
 		line-height:1.7;
 	}
+
 	
 	footer {
 		background-size: 30%;
