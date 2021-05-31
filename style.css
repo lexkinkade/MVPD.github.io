@@ -1,0 +1,552 @@
+html{
+    scroll-behavior: smooth;
+}
+
+:root {
+    font-size: 16px;
+    --transition-speed: 600ms;
+}
+  
+body {
+    color: rgb(255,255,240);
+    background-color: rgb(255,255,240);
+    margin: 0;
+    padding: 0;
+}
+  
+body::-webkit-scrollbar {
+    width: 10px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #000000;
+ 
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: #646464;
+    border-radius: 10px;
+}
+
+hr.solid {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: auto;
+    border-top: 3px solid white;
+    border-radius: 5px;
+}
+
+ 
+main {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: auto;
+    padding-left: auto;
+    padding-right: auto;
+    /*border: 7px solid rgba(255,255,255,0.7);*/
+    text-align: center;    
+}
+
+.title {
+    transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
+    letter-spacing: 2px;
+    font-size: 11px;
+    position: absolute;
+    left: 10px;
+    font-family: "Lucida Sans Typewriter","Lucida Console","Bitstream Vera Sans Mono",monospace;
+    color: rgb(255, 255, 255)
+    
+}
+  
+header {
+    background-image: url(images/Logo.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.banner {
+
+    width: 100%;  
+    position:absolute;    
+    background-image:  url(images/background.jpg) 
+
+}
+
+.banner2 
+{
+    margin-top: 45rem;
+    width: 100%;  
+    position:absolute;    
+    background-image:  url(images/background.jpg) 
+
+}
+
+
+#home {
+    transition: 1s all cubic-bezier(0.23, 1, 0.32, 1);
+    line-height: 15px;  
+
+
+}
+
+
+.ME img {
+    position: absolute;
+    padding-left: 15%;
+    opacity: 0.60;
+    filter: grayscale(100%);
+    
+}
+.ME p {
+    text-align: left;
+    font-size: 14px;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    
+} 
+
+.ME h1 {
+    text-align: left;
+    font-size: 110px;
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
+.ME a {
+    font-size: 14px;
+    padding-left: 0;
+} 
+
+#experience {
+    transition: .5s all cubic-bezier(0.23, 1, 0.32, 1);
+    background-image: url(images/jupiter.jpg);
+    margin: 0;
+    padding: 0;   
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-left: 10rem;
+    
+
+    
+}
+
+#experience p {
+    text-align: left;
+    font-size: 16px;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    width: 50%;
+}
+
+#college {
+    margin-left: 10rem;
+    background-image: url(images/saturn.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 250rem;
+    font-size: 16px;
+    line-height: 10px;
+    
+}
+
+#methods {
+    transition: .5s all cubic-bezier(0.23, 1, 0.32, 1);
+    margin: 0;
+    padding: 0;   
+    background-image: url(images/pluto.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 0%;
+    margin-left: 10rem;
+    background-size: 75rem;
+}
+
+#methods p {
+    text-align: left;
+    font-size: 16px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+#interests {
+    transition: .5s all cubic-bezier(0.23, 1, 0.32, 1);
+    margin: 0;
+    padding: 0;   
+    background-image: url(images/jup2.jpg);
+    background-repeat: no-repeat;
+    background-position:  right;
+    background-size: cover;
+    margin-right: 0%;
+    margin-left: 10rem;
+}
+
+
+#interests p {
+    text-align: left;
+    font-size: 16px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+#grail {
+    background-image: url(images/mars.jpg);
+    margin: 0;
+    padding: 0;   
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 175rem;
+    margin-left: 10rem;
+    
+}
+
+#grail p {
+    text-align: center;
+    font-size: 16px;
+    margin-right: 10rem;
+}
+
+#grail img{
+    padding-left: 40%;
+    height: 900px;
+}
+
+footer {
+    transition: .5s all cubic-bezier(0.23, 1, 0.32, 1);
+    background-color: rgb(255,255,240);   
+    background-image: url(images/blackandwhite.jpg);
+    background-size: 20%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 10px;
+
+}
+
+h1 {
+    font-size: 110px;
+    line-height: 60px;
+    padding: 0;
+    color: rgb(1,121,197);
+    font-family: 'Open Sans', sans-serif;    
+}
+
+p {
+    font-weight: 300;
+    font-size: 12px;
+    /*color: #303030;*/
+    color: rgb(1,121,197);
+    line-height: 24px;
+    font-family: "Lucida Sans Typewriter","Lucida Console","Bitstream Vera Sans Mono",monospace;
+    text-align: center;
+
+}
+
+a {
+    font-weight: 300;
+    font-size: 12px;
+    color: rgb(1,121,197);
+    line-height: 26px;
+    font-family: "Lucida Sans Typewriter","Lucida Console","Bitstream Vera Sans Mono",monospace;
+    text-align: center;
+    width: 45%;
+    padding-left: 25%;
+}
+
+footer p {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(1,121,197);
+    font-size: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: left;
+
+  
+}
+
+footer a {
+    position: left;
+    font-size: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  
+}
+
+
+/* ========== Media Queries For Responsiveness ========== */
+@media screen and (max-width:1200px) {
+	
+	/* Header Section Responsiveness */
+	h1{
+		line-height:52px;
+		text-align:left;
+		font-size:82px;
+	}
+	
+	#experience p{
+		margin-left: 7rem;
+		width: 55%;
+	}
+	
+	#methods p {
+		margin-left: 7rem;
+	}
+	
+	#interests p {
+		margin-left: 7rem;
+	}
+	
+}
+
+@media screen and (max-width:991px) {
+	
+	/* Header Section Responsiveness */
+	h1{
+		line-height:38px;
+		font-size:60px;
+	}
+	
+	#experience p{
+		margin-left: 5rem;
+		margin-right: 0;
+		width: 70%;
+	}
+	
+	#methods p {
+		margin-left: 5rem;
+		margin-right:5rem;
+	}
+	
+	#interests p {
+		margin-left: 5rem;
+		margin-right:5rem;
+	}
+	
+	#grail p {
+    	margin-right: 7rem;
+	}
+	
+}
+
+@media screen and (max-width:767px) {
+	
+	/* Header Section Responsiveness */
+	header{
+		background-size:30%;
+	}
+	
+	.ME{
+		text-align:center;
+		display:block;
+	}
+	
+	.ME img{
+		max-width:50% !important;
+		margin:1rem !important;
+		position:relative;
+		opacity:.75;
+		padding:0;
+	}
+	
+	.ME p{
+		margin:0 7rem;
+		padding:0;
+	}
+	
+	h1{
+		line-height:32px;
+		font-size:52px;
+	}
+	
+	#experience,
+	#college,
+	#methods,
+	#interests,
+	#grail{
+		margin-left:7rem;
+	}
+	
+	#experience p{
+		margin-left: 3rem;
+		margin-right: 3rem;
+		width: 80%;
+	}
+	
+	#methods p {
+		margin-left: 3rem;
+		margin-right:3rem;
+	}
+	
+	#interests p {
+		margin-left: 3rem;
+		margin-right:3rem;
+	}
+	
+	#grail{
+		text-align:center;
+	}
+	
+	#grail p{
+		margin-right:3rem;
+	}
+	
+	#grail img{
+		max-width:40% !important;
+		padding:0;
+	}
+	
+	footer{
+		background-position:center bottom;
+		margin-bottom:20px;
+		height:170px;
+	}
+	
+	footer p{
+		padding:0;
+	}
+	
+}
+
+@media screen and (max-width:600px) {
+	
+	.title{
+		letter-spacing:1.5px;
+		margin-left:30px;
+	}
+	
+	.title img{
+		height:32px !important;
+	}
+	
+	.ME img{
+		max-width:60% !important;
+	}
+	
+	.ME p{
+		line-height:1.7;
+		margin:0 4rem;
+	}
+	
+	hr.solid {
+		border-top: 2px solid white;
+		margin-right: 8rem;
+		margin-left: 8rem;
+	}
+	
+	h1{
+		line-height:22px;
+		font-size:36px;
+	}
+	
+	#experience,
+	#college,
+	#methods,
+	#interests,
+	#grail{
+		margin-left:5rem;
+	}
+	
+	#experience p{
+		margin-right: 1rem;
+		margin-left: 1rem;
+		line-height:1.7;
+		font-size:14px;
+		width: 80%;
+	}
+	
+	#methods p {
+		margin-left: 1rem;
+		margin-right:1rem;
+		line-height:1.7;
+		font-size:14px;
+	}
+	
+	#interests p {
+		margin-left: 1rem;
+		margin-right:1rem;
+		line-height:1.7;
+		font-size:14px;
+	}
+	
+	#interests p.hobbies{
+		font-size:24px !important;
+	}
+	
+	#grail p{
+		margin-right:1rem;
+		line-height:1.7;
+		font-size:14px;
+	}
+	
+	#grail img{
+		max-width:50% !important;
+	}
+	
+	footer{
+		background-size: 25%;
+		margin-bottom:15px;
+		height:150px;
+	}
+	
+	footer p{
+		padding:0;
+	}
+	
+}
+
+@media screen and (max-width:450px) {
+
+	header{
+		background-size:40%;
+	}
+	
+	.ME p{
+		line-height:1.5;
+		font-size:13px;
+		margin:0 3rem;
+	}
+	
+	hr.solid {
+		margin-right: 5rem;
+		margin-left: 5rem;
+	}
+	
+	h1{
+		line-height:20px;
+		font-size:30px;
+	}
+	
+	#experience,
+	#college,
+	#methods,
+	#interests,
+	#grail{
+		margin-left:4rem;
+	}
+	
+	#experience p,
+	#methods p,
+	#interests p,
+	#grail p{
+		margin-right: .5rem;
+		margin-left: .5rem;
+		line-height:1.5;
+		font-size:13px;
+		width: 95%;
+	}
+	
+	#college p{
+		line-height:1.7;
+	}
+	
+	footer {
+		background-size: 30%;
+		margin-bottom: 15px;
+		padding-top:0;
+		height: 140px;
+	}
+	
+}
