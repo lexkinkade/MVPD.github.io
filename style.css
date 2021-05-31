@@ -59,16 +59,15 @@ main {
 }
   
 header {
-    background-image: url(images/Logo-min.jpg);
+    background-image: url(images/background-min.jpg);
     height: 100vh;
-    background-repeat: no-repeat;
-    background-position-x: 50%;
-    background-position-y: 55%;
-    background-size: 28rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
     background-color: rgb(255, 255, 255);
 }
 
-.banner {
+/*.banner {
     width: 100%;  
     position:absolute;
 	background-repeat: repeat-x;    
@@ -86,7 +85,7 @@ header {
  
 
 }
-
+*/
 
 #home {
     transition: 1s all cubic-bezier(0.23, 1, 0.32, 1);
