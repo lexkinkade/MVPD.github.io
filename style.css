@@ -32,7 +32,7 @@ hr.solid {
     margin-left: 10rem;
     margin-right: 10rem;
     width: auto;
-    border-top: 3px solid white;
+    border-top: 3px solid rgb(44, 108, 255);
     border-radius: 5px;
 }
 
@@ -103,7 +103,7 @@ header {
 }
 .Greetings p {
     text-align: left;
-    font-size: 14px;
+    font-size: 24px;
     margin-right: 10rem;
     margin-left: 10rem;
     
@@ -117,7 +117,7 @@ header {
 }
 
 .Greetings a {
-    font-size: 14px;
+    font-size: 24px;
     padding-left: 0;
 } 
 
@@ -133,15 +133,13 @@ header {
 
 #Lessons p {
     text-align: left;
-    font-size: 16px;
-    margin-right: 10rem;
-    margin-left: 10rem;
+    font-size: 24px;
     width: 50%;
 }
 
 #Members {
     margin-left: 10rem;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 10px;
     
 }
@@ -158,8 +156,6 @@ header {
 #Appearances p {
     text-align: left;
     font-size: 16px;
-    margin-left: 10rem;
-    margin-right: 10rem;
 }
 
 #Images {
@@ -243,7 +239,6 @@ header {
 #Contact p {
     text-align: center;
     font-size: 16px;
-    margin-right: 10rem;
 }
 
 #Contact img{
