@@ -161,7 +161,7 @@ header {
     padding: 0;   
     margin-right: 0%;
     margin-left: 10rem;
-    background-size: 75rem;
+ 
 }
 
 #Appearances p {
@@ -391,7 +391,7 @@ footer a {
 		background-size:30%;
 	}
 	
-	.ME{
+	.Greetings{
 		text-align:center;
 		display:block;
 	}
@@ -474,7 +474,12 @@ footer a {
 	.title img{
 		height:32px !important;
 	}
-	
+
+	.Greetings h1{
+		line-height:22px;
+		font-size:26px;
+	}
+
 	.Greetings img{
 		max-width:60% !important;
 	}
@@ -482,6 +487,11 @@ footer a {
 	.Greetings p{
 		line-height:1.7;
 		margin:0 4rem;
+	}
+	.Appearances pre {
+		line-height:12px;
+		font-size:12px;
+		max-width: 100%;
 	}
 	
 	hr.solid {
@@ -492,7 +502,7 @@ footer a {
 	
 	h1{
 		line-height:22px;
-		font-size:36px;
+		font-size:26px;
 	}
 	
 	#Lessons,
@@ -538,6 +548,10 @@ footer a {
 	#Contact img{
 		max-width:50% !important;
 	}
+
+	#Members img{
+		max-width:80% !important;
+	}
 	
 	footer{
 		background-size: 25%;
@@ -547,6 +561,7 @@ footer a {
 	
 	footer p{
 		padding:0;
+		margin-left: 50%;
 	}
 	
 }
@@ -554,7 +569,15 @@ footer a {
 @media screen and (max-width:450px) {
 
 	header{
-		background-size:40%;
+		background-size:100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.Greetings h1{
+		line-height:1.5;
+		font-size:30px;
+		margin:0 3rem;
 	}
 	
 	.Greetings p{
@@ -562,34 +585,63 @@ footer a {
 		font-size:13px;
 		margin:0 3rem;
 	}
-	
+	.Greetings a{
+		line-height:1.5;
+		font-size:13px;
+
+	}
+
+	.Lessons p{
+		line-height:1.5;
+		font-size:13px;
+		margin:0 3rem;
+
+
+	}
+
 	hr.solid {
-		margin-right: 5rem;
-		margin-left: 5rem;
+		margin-right: 10px;
+		margin-left: 10px;
 	}
 	
+	#Images h1{
+		line-height:1.5;
+		font-size:30px;
+		margin:0 1rem;
+		
+	}
+
+	#Contact h1{
+		font-size: 30px;
+
+	}
+
 	h1{
-		line-height:20px;
+		line-height:30px;
 		font-size:30px;
 	}
 	
+	#Greetings,
 	#Lessons,
 	#Members,
-	#Appearances,
 	#Images,
 	#Contact{
 		margin-left:4rem;
 	}
+
+	#Appearances {
+		margin-left:5px;
+	}
+	
 	
 	#Lessons p,
     #Members,
 	#Appearances p,
 	#Images p,
 	#Contact p{
-		margin-right: 10rem;
-		margin-left: 10rem;
+		margin-right: 2rem;
 		line-height:1.5;
-		font-size:24px;
+		font-size:14px;
 		width: 65%;
 	}
 	
@@ -597,6 +649,10 @@ footer a {
 		line-height:1.7;
 	}
 
+	#Appearances pre{
+		font-size: 12px;
+		margin-left: 0rem;
+	}
 	
 	footer {
 		background-size: 30%;
