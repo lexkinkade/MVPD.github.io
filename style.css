@@ -59,7 +59,7 @@ main {
 }
   
 header {
-    background-image: url(images/Logo2.jpg);
+    background-image: url(images/Logo.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-position-x: 50%;
@@ -496,7 +496,7 @@ footer a {
 	}
 	
 	hr.solid {
-		border-top: 2px solid white;
+		border-top: 2px solid rgb(44, 44, 44);
 		margin-right: 8rem;
 		margin-left: 8rem;
 	}
