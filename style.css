@@ -19,12 +19,12 @@ body::-webkit-scrollbar {
 }
   
 body::-webkit-scrollbar-track {
-    background: #000000;
+    background: #eeeae0;
  
 }
   
 body::-webkit-scrollbar-thumb {
-    background: #646464;
+    background: #336edd;
     border-radius: 10px;
 }
 
@@ -94,14 +94,14 @@ header {
 }
 
 
-.ME img {
+.Greetings img {
     position: absolute;
     padding-left: 15%;
     opacity: 0.60;
     filter: grayscale(100%);
     
 }
-.ME p {
+.Greetings p {
     text-align: left;
     font-size: 14px;
     margin-right: 10rem;
@@ -109,19 +109,19 @@ header {
     
 } 
 
-.ME h1 {
+.Greetings h1 {
     text-align: left;
     font-size: 110px;
     margin-right: 10rem;
     margin-left: 10rem;
 }
 
-.ME a {
+.Greetings a {
     font-size: 14px;
     padding-left: 0;
 } 
 
-#experience {
+#Lessons {
     transition: .5s all cubic-bezier(0.23, 1, 0.32, 1);
     background-image: url(images/jupiter.jpg);
     margin: 0;
@@ -134,7 +134,7 @@ header {
     
 }
 
-#experience p {
+#Lessons p {
     text-align: left;
     font-size: 16px;
     margin-right: 10rem;
@@ -142,7 +142,7 @@ header {
     width: 50%;
 }
 
-#college {
+#Members {
     margin-left: 10rem;
     background-image: url(images/saturn.jpg);
     background-repeat: no-repeat;
@@ -153,7 +153,7 @@ header {
     
 }
 
-#methods {
+#Appearances {
     transition: .5s all cubic-bezier(0.23, 1, 0.32, 1);
     margin: 0;
     padding: 0;   
@@ -165,14 +165,14 @@ header {
     background-size: 75rem;
 }
 
-#methods p {
+#Appearances p {
     text-align: left;
     font-size: 16px;
     margin-left: 10rem;
     margin-right: 10rem;
 }
 
-#interests {
+#Images {
     transition: .5s all cubic-bezier(0.23, 1, 0.32, 1);
     margin: 0;
     padding: 0;  
@@ -236,14 +236,14 @@ header {
     }
  }
 
-#interests h1 {
+#Images h1 {
     text-align: left;
     font-size: 110px;
     margin-left: 10rem;
     margin-right: 10rem;
 }
 
-#grail {
+#Contact {
     background-image: url(images/mars.jpg);
     margin: 0;
     padding: 0;   
@@ -254,13 +254,13 @@ header {
     
 }
 
-#grail p {
+#Contact p {
     text-align: center;
     font-size: 16px;
     margin-right: 10rem;
 }
 
-#grail img{
+#Contact img{
     padding-left: 40%;
     height: 900px;
 }
@@ -350,16 +350,16 @@ footer a {
 		font-size:82px;
 	}
 	
-	#experience p{
+	#Lessons p{
 		margin-left: 7rem;
 		width: 55%;
 	}
 	
-	#methods p {
+	#Appearances p {
 		margin-left: 7rem;
 	}
 	
-	#interests p {
+	#Images p {
 		margin-left: 7rem;
 	}
 	
@@ -373,23 +373,23 @@ footer a {
 		font-size:60px;
 	}
 	
-	#experience p{
+	#Lessons p{
 		margin-left: 5rem;
 		margin-right: 0;
 		width: 70%;
 	}
 	
-	#methods p {
+	#Appearances p {
 		margin-left: 5rem;
 		margin-right:5rem;
 	}
 	
-	#interests p {
+	#Images p {
 		margin-left: 5rem;
 		margin-right:5rem;
 	}
 	
-	#grail p {
+	#Contact p {
     	margin-right: 7rem;
 	}
 	
@@ -407,7 +407,7 @@ footer a {
 		display:block;
 	}
 	
-	.ME img{
+	.Greetings img{
 		max-width:50% !important;
 		margin:1rem !important;
 		position:relative;
@@ -415,7 +415,7 @@ footer a {
 		padding:0;
 	}
 	
-	.ME p{
+	.Greetings p{
 		margin:0 7rem;
 		padding:0;
         text-align: center;
@@ -426,39 +426,39 @@ footer a {
 		font-size:52px;
 	}
 	
-	#experience,
-	#college,
-	#methods,
-	#interests,
-	#grail{
+	#Lessons,
+	#Members,
+	#Appearances,
+	#Images,
+	#Contact{
 		margin-left:7rem;
 	}
 	
-	#experience p{
+	#Lessons p{
 		margin-left: 3rem;
 		margin-right: 3rem;
 		width: 80%;
 	}
 	
-	#methods p {
+	#Appearances p {
 		margin-left: 3rem;
 		margin-right:3rem;
 	}
 	
-	#interests p {
+	#Images p {
 		margin-left: 3rem;
 		margin-right:3rem;
 	}
 	
-	#grail{
+	#Contact{
 		text-align:center;
 	}
 	
-	#grail p{
+	#Contact p{
 		margin-right:3rem;
 	}
 	
-	#grail img{
+	#Contact img{
 		max-width:40% !important;
 		padding:0;
 	}
@@ -486,11 +486,11 @@ footer a {
 		height:32px !important;
 	}
 	
-	.ME img{
+	.Greetings img{
 		max-width:60% !important;
 	}
 	
-	.ME p{
+	.Greetings p{
 		line-height:1.7;
 		margin:0 4rem;
 	}
@@ -506,15 +506,15 @@ footer a {
 		font-size:36px;
 	}
 	
-	#experience,
-	#college,
-	#methods,
-	#interests,
-	#grail{
+	#Lessons,
+	#Members,
+	#Appearances,
+	#Images,
+	#Contact{
 		margin-left:5rem;
 	}
 	
-	#experience p{
+	#Lessons p{
 		margin-right: 1rem;
 		margin-left: 1rem;
 		line-height:1.7;
@@ -522,31 +522,31 @@ footer a {
 		width: 80%;
 	}
 	
-	#methods p {
+	#Appearances p {
 		margin-left: 1rem;
 		margin-right:1rem;
 		line-height:1.7;
 		font-size:24px;
 	}
 	
-	#interests p {
+	#Images p {
 		margin-left: 1rem;
 		margin-right:1rem;
 		line-height:1.7;
 		font-size:24px;
 	}
 	
-	#interests p.hobbies{
+	#Images p.hobbies{
 		font-size:24px !important;
 	}
 	
-	#grail p{
+	#Contact p{
 		margin-right:1rem;
 		line-height:1.7;
 		font-size:24px;
 	}
 	
-	#grail img{
+	#Contact img{
 		max-width:50% !important;
 	}
 	
@@ -568,7 +568,7 @@ footer a {
 		background-size:40%;
 	}
 	
-	.ME p{
+	.Greetings p{
 		line-height:1.5;
 		font-size:13px;
 		margin:0 3rem;
@@ -584,19 +584,19 @@ footer a {
 		font-size:30px;
 	}
 	
-	#experience,
-	#college,
-	#methods,
-	#interests,
-	#grail{
+	#Lessons,
+	#Members,
+	#Appearances,
+	#Images,
+	#Contact{
 		margin-left:4rem;
 	}
 	
-	#experience p,
-    #college,
-	#methods p,
-	#interests p,
-	#grail p{
+	#Lessons p,
+    #Members,
+	#Appearances p,
+	#Images p,
+	#Contact p{
 		margin-right: 10rem;
 		margin-left: 10rem;
 		line-height:1.5;
@@ -604,7 +604,7 @@ footer a {
 		width: 65%;
 	}
 	
-	#college p{
+	#Members p{
 		line-height:1.7;
 	}
 
