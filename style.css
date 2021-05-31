@@ -128,7 +128,7 @@ header {
     margin: 0;
     padding: 0;   
     margin-left: 10rem;
-    
+    height:50rem;
 
     
 }
@@ -139,12 +139,22 @@ header {
     width: 50%;
 }
 
+#Lessons img {
+	float: right;
+	float: top;    
+ 	margin-right: 10%;
+	
+}
+
 #Members {
     margin-left: 10rem;
     font-size: 24px;
     line-height: 10px;
     
 }
+
+
+
 
 #Appearances {
     transition: .5s all cubic-bezier(0.23, 1, 0.32, 1);
