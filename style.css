@@ -71,16 +71,15 @@ header {
 .banner {
     width: 100%;  
     position:absolute;    
-    background-image: url(images/background-min.jpg);
+
 
 }
 
 .banner2 
 {
-    margin-top: 45rem;
+    margin-top: 43rem;
     width: 100%;  
     position:absolute; 
-    background-image: url(images/background-min.jpg);
  
 
 }
