@@ -59,7 +59,7 @@ main {
 }
   
 header {
-    background-image: url(images/Logo.jpg);
+    background-image: url(images/Logo-min.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-position-x: 50%;
@@ -69,10 +69,9 @@ header {
 }
 
 .banner {
-
     width: 100%;  
     position:absolute;    
-    background-image:  url(images/background.jpg) 
+    background-image: url(images/background-min.jpg);
 
 }
 
@@ -80,8 +79,9 @@ header {
 {
     margin-top: 45rem;
     width: 100%;  
-    position:absolute;    
-    background-image:  url(images/background.jpg) 
+    position:absolute; 
+    background-image: url(images/background-min.jpg);
+ 
 
 }
 
@@ -123,11 +123,8 @@ header {
 
 #Lessons {
     transition: .5s all cubic-bezier(0.23, 1, 0.32, 1);
-    background-image: url(images/jupiter.jpg);
     margin: 0;
     padding: 0;   
-    background-repeat: no-repeat;
-    background-position: top right;
     margin-left: 10rem;
     
 
@@ -144,10 +141,6 @@ header {
 
 #Members {
     margin-left: 10rem;
-    background-image: url(images/saturn.jpg);
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 250rem;
     font-size: 16px;
     line-height: 10px;
     
@@ -157,9 +150,6 @@ header {
     transition: .5s all cubic-bezier(0.23, 1, 0.32, 1);
     margin: 0;
     padding: 0;   
-    background-image: url(images/pluto.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
     margin-right: 0%;
     margin-left: 10rem;
     background-size: 75rem;
@@ -244,12 +234,8 @@ header {
 }
 
 #Contact {
-    background-image: url(images/mars.jpg);
     margin: 0;
     padding: 0;   
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 175rem;
     margin-left: 10rem;
     
 }
@@ -267,12 +253,8 @@ header {
 
 footer {
     transition: .5s all cubic-bezier(0.23, 1, 0.32, 1);
-    background-color: rgb(255,255,240);   
-    background-image: url(images/blackandwhite.jpg);
     background-size: 20%;
     height: auto;
-    background-repeat: no-repeat;
-    background-position: center;
     padding-top: 10px;
 
 }
