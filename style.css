@@ -70,8 +70,9 @@ header {
 
 .banner {
     width: 100%;  
-    position:absolute;    
-
+    position:absolute;
+	background-repeat: repeat-x;    
+	background-image: url(images/background-min.jpg);
 
 }
 
@@ -80,6 +81,8 @@ header {
     margin-top: 43rem;
     width: 100%;  
     position:absolute; 
+	background-repeat: repeat-x;    
+	background-image: url(images/background-min.jpg);
  
 
 }
